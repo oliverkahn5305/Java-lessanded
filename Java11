@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        int algus = 1;
+        int lopp = 66;
+
+        for (int i = algus; i <= lopp; i++) {
+            if (i % 3 == 0) {
+                System.out.print(i + ", ");
+            }
+        }
+    }
+}

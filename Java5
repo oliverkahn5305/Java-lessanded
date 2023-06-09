@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        double[] takistid = { 10.0, 5.0, 7.0 }; // Takistite väärtused
+
+        double kogutakistus = 0.0;
+        
+        // Arvutame takistite kogutakistuse
+        for (double takisti : takistid) {
+            kogutakistus += takisti;
+        }
+
+        System.out.println("Jadamisi ühendatud takistite kogutakistus: " + kogutakistus + " oomi");
+    }
+}

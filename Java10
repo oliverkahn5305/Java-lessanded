@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int algus = 1;
+        int lopp = 66;
+        int arvudeArvReas = 5;
+
+        for (int i = algus; i <= lopp; i++) {
+            System.out.print(i + " ");
+
+            if (i % arvudeArvReas == 0) {
+                System.out.println();
+            }
+        }
+    }
+}
